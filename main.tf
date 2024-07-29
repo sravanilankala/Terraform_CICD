@@ -3,7 +3,7 @@ resource "aws_instance" "ec2" {
     instance_type = "t2.micro"
     key_name = "Oregonkey"
     tags = {
-      Name = "oregon-EC2"
+      Name = "webhook-EC2"
     }
   
 }
